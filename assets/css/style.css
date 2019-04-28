@@ -1,3 +1,8 @@
 .container {
     padding: 0;
 }
+
+.jumbotron {
+    background-color: black;
+    color: beige;
+}

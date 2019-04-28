@@ -38,6 +38,7 @@ database.ref().on("child_added", function(childSnapShot) {
     var trainName = childSnapShot.val().trainName;
     var destination = childSnapShot.val().destination;
     var firstTrain = childSnapShot.val().firstTrain;
+    
     var frequency = childSnapShot.val().frequency;
 
     // use momentjs to solve time issues
@@ -46,7 +47,7 @@ database.ref().on("child_added", function(childSnapShot) {
     var currentTime = moment();
 
 // 
-    $("#add-train").prepend("<tr><td>" + trainName + "</td><td>" + destination + "</td><td>" + firstTrain + "</td><td>" + frequency + "</td><td>" + nextArrival + "</td><td>" + minutesAway);
+    $("#add-train").prepend("<tr><td>" + trainName + "</td><td>" + destination + "</td><td>" + frequency + "</td><td>" + nextArrival + "</td><td>" + minutesAway);
 
 })
 
