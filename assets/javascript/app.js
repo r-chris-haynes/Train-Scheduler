@@ -46,7 +46,7 @@ database.ref().on("child_added", function(childSnapShot) {
     var currentTime = moment();
 
 // 
-    $("#add-train").prepend("<td>" + trainName + "<td>" + destination + "<td>" + firstTrain + "<td>" + frequency + "<td>" + nextArrival + "<td>" + minutesAway);
+    $("#add-train").prepend("<tr><td>" + trainName + "</td><td>" + destination + "</td><td>" + firstTrain + "</td><td>" + frequency + "</td><td>" + nextArrival + "</td><td>" + minutesAway);
 
 })
 
