@@ -40,11 +40,12 @@ database.ref().on("child_added", function(childSnapShot) {
     var firstTrain = childSnapShot.val().firstTrain;
     
     var frequency = childSnapShot.val().frequency;
-
+    var diffTime = moment().diff(moment(firstTrain, "hh:mm"))
     // use momentjs to solve time issues
-    var nextArrival = "";
-    var minutesAway = "";
-    var currentTime = moment();
+    var remainder = diffTime % frequency;
+    var minutesAway = moment(frequency-remainder, "minutes").format("m");
+    var nextArrival = moment().add(minutesAway, "minutes").format("hh:mm");
+    
 
 // 
     $("#add-train").prepend("<tr><td>" + trainName + "</td><td>" + destination + "</td><td>" + frequency + "</td><td>" + nextArrival + "</td><td>" + minutesAway);
