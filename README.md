@@ -14,3 +14,7 @@ Here is a screen shot after a user has added a new train, taken just before they
 Once they hit the submit button, the data is sent to the database.  Moment.js is then used to retrieve and calculate the next arrival, as well as minutes away.  Then jquery dynamically adds the new trip to the Current Train Schedule.
 
 ![shotThree](assets/images/shotThree.png)
+
+# Try It Out
+Here's the link.
+https://r-chris-haynes.github.io/Train-Scheduler/
