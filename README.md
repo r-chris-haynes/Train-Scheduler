@@ -5,3 +5,8 @@
 To use this application, simply add a train and hit the submit button. 
 
 ![shotOne](assets/images/shotOne.png)
+
+# Demonstration
+Here is a screen shot just after I've added a new train, just before I hit the submit button.
+
+![shotTwo](assets/images/shotTwo.png)
