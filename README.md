@@ -20,8 +20,8 @@ Here's the link.
 https://r-chris-haynes.github.io/Train-Scheduler/
 
 # Technologies Used
-..* JavaScript
-..* Bootstrap
-..* jQuery
-..* Firebase
-..* Moment.js
+* JavaScript
+* Bootstrap
+* jQuery
+* Firebase
+* Moment.js
