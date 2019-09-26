@@ -18,3 +18,10 @@ Once they hit the submit button, the data is sent to the database.  Moment.js is
 # Try It Out
 Here's the link.
 https://r-chris-haynes.github.io/Train-Scheduler/
+
+# Technologies Used
+..* JavaScript
+..* Bootstrap
+..* jQuery
+..* Firebase
+..* Moment.js
